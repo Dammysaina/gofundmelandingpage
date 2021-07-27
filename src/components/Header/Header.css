@@ -1,0 +1,27 @@
+.headerCard {
+    position: absolute;
+    height: 96px;
+    box-shadow:  2px 3px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15rem;
+}
+.greyRectangle {
+    width: 100px;
+    height: 100px;
+    background: #C4C4C4;
+    margin-right: 10rem;
+}
+.headerSide {
+    display: flex;
+    justify-content: space-between;
+}
+.headerSideOne {
+    display: flex;
+    justify-content: space-between;
+}
+.headerSideTwo {
+    display: flex;
+    justify-content: space-between;
+}
