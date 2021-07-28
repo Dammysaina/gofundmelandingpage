@@ -1,8 +1,8 @@
 .headerCard {
-    /* width: 100%; */
+    width: 100%;
     position: absolute;
     height: 60px;
-    box-shadow:  2px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: -3px 2px 3px rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
@@ -17,19 +17,22 @@
 .headerSide {
     display: flex;
     justify-content: space-between;
-    padding-top: 0.7rem;
+    padding-top: 1.5rem;
+    margin-right: 4rem;
 }
 .headerSide p {
-    padding-right: 1rem;
     font-size: 12px;
-
+    padding-right: 2rem;
+    /* width: 70px; */
 }
-.headerSideOne {
+.headerSideOne, .headerSideTwo{
     display: flex;
-    justify-content: space-between;
-    margin-right: 20rem;
 }
 .headerSideTwo {
-    display: flex;
-    justify-content: space-between;
+    padding: 0 4rem 0 25rem;
+}
+.customButton{
+    position: absolute !important;
+    top: 2rem !important;
+    right: 0rem !important;
 }

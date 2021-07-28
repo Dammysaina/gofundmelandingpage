@@ -19,7 +19,7 @@ export default class Header extends Component {
                 <div className="headerSideTwo">
                     <p>How it works</p>
                     <p>Sign in</p>
-                    <CustomButton buttonWidth="133px" buttonHeight="32px">Start a GoFundMe</CustomButton>
+                    <CustomButton className="customButton" buttonWidth="133px" buttonHeight="30px">Start a GoFundMe</CustomButton>
                 </div>
                 </div>
             </div>
