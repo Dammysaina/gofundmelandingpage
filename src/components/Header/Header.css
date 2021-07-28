@@ -1,25 +1,33 @@
 .headerCard {
+    /* width: 100%; */
     position: absolute;
-    height: 96px;
+    height: 60px;
     box-shadow:  2px 3px rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
-    padding-right: 15rem;
+    /* padding-right: 10rem; */
 }
 .greyRectangle {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     background: #C4C4C4;
-    margin-right: 40rem;
+    margin-right: 4rem;
 }
 .headerSide {
     display: flex;
     justify-content: space-between;
+    padding-top: 0.7rem;
+}
+.headerSide p {
+    padding-right: 1rem;
+    font-size: 12px;
+
 }
 .headerSideOne {
     display: flex;
     justify-content: space-between;
+    margin-right: 20rem;
 }
 .headerSideTwo {
     display: flex;

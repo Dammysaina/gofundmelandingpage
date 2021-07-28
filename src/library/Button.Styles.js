@@ -8,7 +8,7 @@ box-shadow: 0px 4px 8px rgba(50, 50, 71, 0.06), 0px 4px 4px rgba(50, 50, 71, 0.0
 height: ${(props) => props.buttonHeight};
 width: ${(props) => props.buttonWidth};
 color: #ffffff;
-font-weight: bold;
+font-weight: normal;
 font-size: 12px;
 line-height: 22px;
 cursor:pointer;
