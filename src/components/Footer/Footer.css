@@ -1,0 +1,33 @@
+.FooterOne {
+    text-align: center;
+    border-bottom: 1px solid #E4E4E4;
+    padding: 3rem 0;
+}
+.FooterOne p {
+    margin-bottom: 2rem;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footerTwo {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 15rem 3rem 20rem;
+    border-bottom: 1px solid #E4E4E4;
+}
+.footerTwo h6 {
+    color: #02A95C;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.footerTwo p {
+    padding-bottom: 1rem;
+}
+.footerThree {
+    display: flex;
+    color: #666666;
+    padding: 3rem 0 2rem 5rem;
+}
+.footerThree p {
+    padding-right: 1rem;
+}
