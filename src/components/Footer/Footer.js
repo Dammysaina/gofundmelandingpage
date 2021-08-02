@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import CustomButton from "../../library/CustomButton";
 import "./Footer.css";
-import { faCopyright } from "@fortawesome/free-light-svg-icons";
+import { faCopyright } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
@@ -44,7 +44,7 @@ export default class Footer extends Component {
                     </div>
                 </div>
                 <div className="footerThree">
-                    <p> <FontAwesomeIcon icon={faCopyright} /> © 2020-2021 GoFundMe</p>
+                    <p> <FontAwesomeIcon icon={faCopyright} /> 2020-2021 GoFundMe</p>
                     <p>Terms</p>
                     <p>Privacy</p>
                     <p>Legal</p>

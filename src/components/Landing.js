@@ -4,7 +4,10 @@ import Layout from "./Layout";
 const Landing = () => {
     return (
        <div>
-          <Layout />
+         <Layout>
+            
+         </Layout> 
+          
        </div>
     )
 }
