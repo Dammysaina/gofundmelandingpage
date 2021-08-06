@@ -11,7 +11,7 @@ export default class Footer extends Component {
             <div className= "footerCard">
                 <div className="FooterOne">
                     <p>Ready to start fundraising?</p>
-                    <CustomButton className="footerButton" buttonWidth="133px" buttonHeight="35px">Start a GoFundMe</CustomButton>
+                    <CustomButton className="footerButton" buttonWidth="133px" buttonHeight="35px" buttonColor="#02A95C">Start a GoFundMe</CustomButton>
                 </div>
                 <div className="footerTwo">
                     <div className="fundraiseFor">
