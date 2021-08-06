@@ -1,0 +1,8 @@
+.fundRaise {
+    margin:  0 4rem;
+}
+
+.fundraiseOne {
+    display: flex;
+    justify-content: space-between;
+}

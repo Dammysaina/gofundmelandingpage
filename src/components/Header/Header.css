@@ -6,7 +6,7 @@
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
-    /* padding-right: 10rem; */
+    margin-bottom: 3rem;
 }
 .greyRectangle {
     width: 60px;
