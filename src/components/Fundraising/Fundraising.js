@@ -8,16 +8,16 @@ export default class Fundraising extends Component {
             <div className="fundRaise">
                 <div className="fundraiseOne">
                     <div className="fundRaiseWorks">
-                        <div>
+                        <div className="fundStarters">
                             <h3>Fundraising for the people and causes you care about</h3>
                             <p>Starting is easy. 0% Platform fee for starters *.</p>
                         </div>
                         <div className="goFund">
-                            <div>
-                                <CustomButton buttonWidth="133px" buttonHeight="30px" buttonColor="#02A95C">Start a GoFundMe</CustomButton>
+                            <div className="buttonStart">
+                                <CustomButton buttonWidth="133px" buttonHeight="40px" buttonColor="#02A95C">Start a GoFundMe</CustomButton>
                             </div>
-                            <div>
-                                <p>|<span></span> See how GoFundMe works</p>
+                            <div className="buttonWorks">
+                                <p><span className="buttonLine">|</span><span className="buttonBox"></span> See how GoFundMe works</p>
                             </div>
                         </div>
                         <div className="transactFund">

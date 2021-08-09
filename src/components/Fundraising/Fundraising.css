@@ -14,12 +14,20 @@
     /* width: 20rem; */
     margin-right: 5rem;
 }
-.fundRaiseWorks h3 {
-    font-size: 40px;
+.fundStarters h3 {
+    font-size: 38px;
     font-weight: 400;
+}
+.fundStarters p {
+    padding: 1rem 0;
+    font-size: 23px;
 }
 .goFund {
     display: flex;
+    padding-top: 1rem;
+}
+.buttonStart {
+    padding-right: 1rem;
 }
 .fundRaiseImage img {
     width: 29rem;
