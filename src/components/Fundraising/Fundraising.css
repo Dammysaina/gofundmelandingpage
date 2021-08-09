@@ -6,3 +6,24 @@
     display: flex;
     justify-content: space-between;
 }
+.fundraiseTwo {
+    display: flex;
+    justify-content: space-between;
+}
+.fundRaiseWorks {
+    /* width: 20rem; */
+    margin-right: 5rem;
+}
+.fundRaiseWorks h3 {
+    font-size: 40px;
+    font-weight: 400;
+}
+.goFund {
+    display: flex;
+}
+.fundRaiseImage img {
+    width: 29rem;
+}
+.transactFund {
+    padding-top: 10rem;
+}
