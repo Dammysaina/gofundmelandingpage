@@ -1,4 +1,9 @@
 .topFundraisers {
     background-color: #FBF8F6;
-    padding: 4rem 6rem 4rem 8rem;
+    padding: 4rem 16rem 4rem 8rem;
+}
+.topRaisers {
+    padding-bottom: 2rem;
+    font-weight: 350;
+    font-size: 30px;
 }

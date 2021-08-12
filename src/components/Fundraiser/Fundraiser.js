@@ -6,7 +6,7 @@ export default class Fundraiser extends Component {
     render () {
         return (
             <div className="topFundraisers">
-                <div>
+                <div className="topRaisers">
                     <p>Top Fundraisers</p>
                 </div>
                 <div>
