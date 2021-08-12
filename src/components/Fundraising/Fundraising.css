@@ -9,11 +9,10 @@
 }
 .fundraiseTwo {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .fundRaiseWorks {
-    
-    margin-right: 5rem;
+    margin-right: 4rem;
 }
 .fundStarters h3 {
     font-size: 42px;
@@ -54,6 +53,7 @@
 .fundRaiseImage p {
     font-size: 22px;
     padding-bottom: 2rem  ;
+    width: 29rem;
 }
 .transactFund {
     padding-top: 5rem;
