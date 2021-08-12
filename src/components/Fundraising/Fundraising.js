@@ -33,9 +33,9 @@ export default class Fundraising extends Component {
                         <img src={`/images/Rectangle (1).svg`} alt="black man"/>
                     </div>
                     <div className="fundRaiseImage">
-                        <h4>Feel the joy of giving</h4>
+                        <h3>Feel the joy of giving</h3>
                         <p>Choose a GoFundMe Cause. Make a donation. See your impact.</p>
-                        <CustomButton buttonWidth="133px" buttonHeight="30px" buttonColor="#FDB933">Donate to a cause</CustomButton>
+                        <CustomButton buttonWidth="140px" buttonHeight="35px" buttonColor="#FDB933">Donate to a cause</CustomButton>
                     </div>
                 </div>
             </div>

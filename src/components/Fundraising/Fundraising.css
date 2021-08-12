@@ -1,21 +1,22 @@
 .fundRaise {
-    margin:  0 8rem;
+    margin:  0 7rem;
 }
 
 .fundraiseOne {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 4rem;
 }
 .fundraiseTwo {
     display: flex;
     justify-content: space-between;
 }
 .fundRaiseWorks {
-    /* width: 20rem; */
+    
     margin-right: 5rem;
 }
 .fundStarters h3 {
-    font-size: 38px;
+    font-size: 42px;
     font-weight: 400;
 }
 .fundStarters p {
@@ -28,10 +29,35 @@
 }
 .buttonStart {
     padding-right: 1rem;
+    color: #02A95C;
+}
+.buttonWorks {
+    padding-top: 0.5rem;
+}
+.buttonLine {
+    color: #E4E4E4;
+    padding-right: 1rem;
+}
+.buttonBox {
+    border: 2px solid black;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    margin-right: 1rem;
 }
 .fundRaiseImage img {
-    width: 29rem;
+    width: 30rem;
+}
+.fundRaiseImage h3 {
+    font-weight: 400;
+    font-size: 42px;
+    padding: 1rem 0 ;
+}
+.fundRaiseImage p {
+    font-size: 22px;
+    padding-bottom: 2rem  ;
 }
 .transactFund {
-    padding-top: 10rem;
+    padding-top: 5rem;
+}
+.fundRaiseWorks img {
+    width: 30rem;
 }
