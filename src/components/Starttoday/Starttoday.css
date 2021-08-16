@@ -1,0 +1,21 @@
+.startToday {
+    margin: 2rem 6rem
+}
+.startFund h4{
+    font-weight: 400;
+    font-size: 22px;
+    padding-bottom: 0.7rem;
+}
+.startFund p {
+    font-size: 15px;
+    color: #666666;
+    padding-bottom: 1rem;
+}
+.startFund span {
+    color: #02A95C;
+    padding-left:1rem ;
+}
+.startImage {
+    display: flex;
+    justify-content: space-between;
+}
