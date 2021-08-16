@@ -1,0 +1,40 @@
+.trendTopic {
+    padding: 3rem 6rem;
+    background-color: #FBF8F6;
+}
+.trendTop h4{
+    color: #960064;
+    font-weight: 400;
+    font-size: 25px;
+}
+.trendTop P{
+    font-size: 20px;
+    padding: 1rem 0;
+}
+.topicOne {
+    display: flex;
+    padding-bottom: 2rem;
+}
+.topicOne p {
+    padding-left: 1rem;
+    width: 35rem;
+    font-size: 15px;
+}
+.topicOneTwo {
+    padding-top: 1.5rem;
+}
+.topicTwo {
+    display: flex;
+    padding-left: 1rem;
+}
+.topicTwo p {
+    padding-right: 5rem;
+    font-size: 15px;
+    width: 34rem;
+}
+.topicTwoStart {
+    padding: 1.5rem 0;
+}
+.topicButton {
+    padding-top: 2rem;
+}
