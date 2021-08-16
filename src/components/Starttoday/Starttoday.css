@@ -9,7 +9,6 @@
 .startFund p {
     font-size: 15px;
     color: #666666;
-    padding-bottom: 1rem;
 }
 .startFund span {
     color: #02A95C;
@@ -18,4 +17,10 @@
 .startImage {
     display: flex;
     justify-content: space-between;
+}
+.startImage img {
+    padding: 2rem 0;
+}
+.startImage p {
+    padding-left: 1rem;
 }
