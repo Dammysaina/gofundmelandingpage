@@ -1,0 +1,18 @@
+.newCharity {
+    display: flex;
+    padding: 4rem 6rem;
+}
+.newImage {
+    padding-right: 3rem;
+}
+.newGoFundMe h5 {
+    color: #960064;
+    font-size: 20px;
+    font-weight: 400;
+}
+.newGoFundMe .introCharity {
+    width: 10rem;
+}
+.introPower {
+    width: 20rem;
+}
