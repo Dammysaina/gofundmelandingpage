@@ -12,14 +12,15 @@ export default class Charity extends Component {
                 <div>
                     <div className="newGoFundMe">
                         <h5>New</h5>
-                        <p className="introCharity">Introducing GoFundMe Charity <sup>TM</sup></p>
-                        <p className="introPower">Our powerful fundraising software with no subscription fees for charities of all sizes
-                            <span>Unrestricted access to data and robust tools to reach more donors.</span>
-                            <span>Customize your brand experience from start to finish</span> 
-                        </p>
+                        <h6 className="introCharity">Introducing GoFundMe Charity <sup>TM</sup></h6>
+                        <div className="introText">
+                            <p className="introPower">Our powerful fundraising software with no subscription fees for charities of all sizes</p>
+                            <p>Unrestricted access to data and robust tools to reach more donors.</p>
+                            <p>Customize your brand experience from start to finish</p> 
+                        </div>
                     </div>
                     <div>
-                        <CustomButton buttonWidth="140px" buttonHeight="35px" buttonColor="#03866D">Learn More</CustomButton>
+                        <CustomButton buttonWidth="140px" buttonHeight="40px" buttonColor="#03866D">Learn more</CustomButton>
                     </div>
                 </div>
             </div>

@@ -5,13 +5,26 @@
 .newImage {
     padding-right: 3rem;
 }
+.newImage img {
+    height: 20rem;
+}
 .newGoFundMe h5 {
     color: #960064;
     font-size: 20px;
     font-weight: 400;
 }
+.newGoFundMe p {
+    color: #666666;
+}
 .newGoFundMe .introCharity {
     width: 10rem;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0.5rem 0 0.9rem 0;
+}
+.introText {
+    line-height: 1.5em;
+    padding-bottom: 3rem;
 }
 .introPower {
     width: 20rem;
