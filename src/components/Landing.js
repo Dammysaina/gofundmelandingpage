@@ -1,4 +1,5 @@
 import React from "react"
+import Charity from "./Charity/Charity";
 import Fundraiser from "./Fundraiser/Fundraiser";
 import Fundraising from "./Fundraising/Fundraising";
 import Layout from "./Layout";
@@ -13,6 +14,7 @@ const Landing = () => {
          <Fundraiser />
          <Starttoday />
          <Trending />
+         <Charity />
          </Layout> 
           
        </div>
