@@ -1,10 +1,11 @@
 .sliderImage {
     background-color: #FBF8F6;
     position: relative;
-    height: 100vh;
+    height: 65vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 13rem;
 }
 .image {
     width: 350px;
@@ -14,13 +15,55 @@
     position: absolute;
     top: 50%;
     right: 32px;
-    font-size: 3rem;
-    color: #000;
+    font-size: 1rem;
+    color: #02A95C;
+    border: 1px solid #02A95C;
+    border-radius: 50%;
+    padding: 0.5rem;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    margin-right: 5rem;
 }
 .left-arrow {
     position: absolute;
     top: 50%;
-    right: 32px;
-    font-size: 3rem;
-    color: #fff;
+    left: 32px;
+    font-size: 1rem;
+    color: #02A95C;
+    border: 1px solid #02A95C;
+    border-radius: 50% ;
+    padding: 0.5rem;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 5rem;
+}
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+.storiesText {
+    width: 300px;
+}
+.storiesText h4 {
+    color: #666666;
+    font-size: 15px ;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+.meetChris {
+    padding-bottom: 1rem;
+}
+.lifeStories {
+    color: #666666;
+    line-height: 1.5em;
+}
+.Chris {
+    padding-top: 0.8rem;
 }

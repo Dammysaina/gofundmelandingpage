@@ -1,5 +1,6 @@
 export const Storiesimage = [
     {
+        title:'love',
         image:'./images/Rectangle (10).svg'
     },
     {
