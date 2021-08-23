@@ -4,6 +4,7 @@ import Fundraiser from "./Fundraiser/Fundraiser";
 import Fundraising from "./Fundraising/Fundraising";
 import Layout from "./Layout";
 import Starttoday from "./Starttoday/Starttoday";
+import Stories from "./Stories/Stories";
 import Trending from "./Trending/Trending";
 
 const Landing = () => {
@@ -15,6 +16,7 @@ const Landing = () => {
          <Starttoday />
          <Trending />
          <Charity />
+         <Stories />
          </Layout> 
           
        </div>
