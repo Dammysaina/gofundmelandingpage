@@ -5,6 +5,7 @@ import Fundraising from "./Fundraising/Fundraising";
 import Layout from "./Layout";
 import Starttoday from "./Starttoday/Starttoday";
 import Stories from "./Stories/Stories";
+import { Storiesimage } from "./Stories/Storiesimage";
 import Trending from "./Trending/Trending";
 
 const Landing = () => {
@@ -16,7 +17,7 @@ const Landing = () => {
          <Starttoday />
          <Trending />
          <Charity />
-         <Stories />
+         <Stories slides={Storiesimage}/>
          </Layout> 
           
        </div>

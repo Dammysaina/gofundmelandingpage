@@ -1,3 +1,26 @@
 .sliderImage {
     background-color: #FBF8F6;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    width: 350px;
+    height: 600px;
+}
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: #000;
+}
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: #fff;
 }
